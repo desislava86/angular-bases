@@ -6,6 +6,7 @@ import { CouterModule } from './couter/counter.module';
 import { HeroModule } from './heroes/hero.module';
 
 import { AppComponent } from './app.component';
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -17,7 +18,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     CouterModule,
-    HeroModule
+    HeroModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
